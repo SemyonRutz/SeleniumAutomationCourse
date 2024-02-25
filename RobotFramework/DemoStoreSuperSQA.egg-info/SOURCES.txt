@@ -1,0 +1,5 @@
+setup.py
+DemoStoreSuperSQA.egg-info/PKG-INFO
+DemoStoreSuperSQA.egg-info/SOURCES.txt
+DemoStoreSuperSQA.egg-info/dependency_links.txt
+DemoStoreSuperSQA.egg-info/top_level.txt
