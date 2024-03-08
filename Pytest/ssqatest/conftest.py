@@ -4,6 +4,8 @@ from selenium.webdriver.chrome.options import Options as ChOptions
 from selenium.webdriver.firefox.options import Options as FfOptions
 import os  # Import the os module for interacting with the operating system
 
+
+# 1. this section of code is a fixture that will set up the webdriver
 @pytest.fixture(scope="class")  # Define a fixture called 'init_driver' with scope set to 'class'
 def init_driver(request):  # Define a function named 'init_driver' to set up the WebDriver
     global driver  # Declare that we're using the global variable 'driver' within this function
@@ -63,7 +65,7 @@ def init_driver(request):  # Define a function named 'init_driver' to set up the
 
 
 
-#  this section of code generates a url, image or any other file that can be attached to the report
+# 2. this section of code generates a url, image or any other file that can be attached to the report
 import pytest
 import pytest_html
 
